@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<extension key="cz.kam.extranet" type="module">
+  <file>extranet</file>
+  <name>Extranet pro ŠpŽ</name>
+  <description>Extranet pro učitelé z SKU pro registraci na akce</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Vít Maňásek</author>
+    <email>vmanasek@kam.cz</email>
+  </maintainer>
+  <releaseDate>2021-03-12</releaseDate>
+  <version>1.0</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>5.0</ver>
+  </compatibility>
+  <comments>This is a new, undeveloped module</comments>
+  <classloader>
+    <psr4 prefix="Civi\" path="Civi"/>
+  </classloader>
+  <civix>
+    <namespace>CRM/Extranet</namespace>
+  </civix>
+</extension>

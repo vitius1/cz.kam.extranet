@@ -1,0 +1,200 @@
+body {
+  background: black;
+  background: url("https://crm.kam.cz/sites/default/files/civicrm/ext/cz.kam.extranet/images/background2.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#navbar, .col-sm-3, #block-system-powered-by, .footer, .tabs--primary, .page-header, .breadcrumb, .crm-footer, #civicrm-menu, #crm-container, #branding, .crm-menubar-toggle-btn {
+  display: none !important;
+}
+
+#page {
+  background: none !important;
+}
+
+.row {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+.alert {
+  position: fixed; 
+  z-index: 10; 
+  left: 50%;
+  transform: translate(-35%, 0); 
+  top: 30%;
+}
+
+.main-container {
+  margin-top: -130px !important;
+}
+
+.custom-content {
+  background-color: #F8F8F8;
+  border-radius: 20px;
+  min-height: 400px;
+  padding: 50px;
+}
+
+.custom-menu {
+  color: white;
+  padding: 10px;
+}
+
+.panel-heading {
+  background-color: white !important;   
+  border: none !important;
+  font-weight: 800;
+}
+
+.webform-component-fieldset, .custom-prihlasen, .custom-neprihlasen {
+  border-radius: 20px !important;
+  border-color: #F0F0F0 !important;
+  background-color: white;
+}
+
+.form-type-radio, #bootstrap-panel--2 .form-type-checkbox, #bootstrap-panel--3 .form-type-checkbox, #bootstrap-panel--4 .form-type-checkbox {
+  width: auto;
+  display: inline-block;
+  padding-right: 20px;
+}
+
+#bootstrap-panel--3 .form-type-checkbox, #bootstrap-panel--4 .form-type-checkbox {
+  width: 200px;
+}
+
+.form-checkbox {
+  margin-right: 10px !important;
+}
+
+.control-label {
+  margin-top: 10px;
+}
+
+#bootstrap-panel-6-body .control-label, #bootstrap-panel-7-body .control-label {
+  width: auto !important;
+}
+
+.form-checkboxes, .form-radios, .form-item-submitted-typ-osoby-civicrm-1-contact-1-cg7-custom-440, .form-item-submitted-zs-civicrm-1-contact-1-cg7-custom-65, .form-item-submitted-ss-civicrm-1-contact-1-cg7-custom-66 {
+  margin-left: 25px;
+}
+
+
+ul {
+list-style: none;
+padding: 0;
+}
+li {
+padding-left: 1.3em;
+padding-top: 10px;
+}
+li:before {
+content: "\f101"; /* FontAwesome Unicode */
+font-family: FontAwesome;
+display: inline-block;
+margin-left: -1.3em; /* same as padding-left set on li */
+width: 1.3em; /* same as padding-left set on li */
+}
+
+a {
+color: white;
+margin-left: 10px;
+}
+
+a:hover, .custom-active {
+color: red;
+}
+
+.custom-links {
+margin-top: 70px;
+font-size: 16px;
+}
+
+.custom-menu {
+padding: 10px;
+}
+
+.dropdown-menu a {
+color: black;
+width: auto;
+}
+
+.dropdown-menu {
+min-width: 115px;
+}
+
+.custom-account {
+position: absolute; 
+left: 50%;
+transform: translate(-50%, 0); 
+}
+
+.custom-icon:before {
+content: "\f007"; /* FontAwesome Unicode */
+font-family: FontAwesome;
+display: inline-block;
+margin-right: 5px;
+}
+
+.custom-icon2:before {
+content: "\f078"; /* FontAwesome Unicode */
+font-family: FontAwesome;
+display: inline-block;
+margin-left: 5px;
+}
+
+.custom-footer {
+bottom: 20px;
+transform: translate(-50%, 0); 
+position: fixed; left: 125px; 
+width: 140px;
+}
+
+#block-system-main {
+display: flex;
+}
+
+.custom-center {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 10px;
+}
+
+.custom-content {
+margin-bottom: 20px;
+}
+
+.custom-flex {
+  display: flex; 
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+  .custom-flex {
+    display: block;
+  }  
+  
+  .custom-links, .dropdown-toggle, .dropdown-menu {
+    font-size: 18px;
+  }
+  
+  .dropdown-menu {
+    width: 137px;
+  }
+  
+  .custom-account {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .col-md-10 {
+    margin: -15px; 
+    padding: 0;
+  }  
+  
+  .custom-content {
+    padding: 10px;
+  }
+}

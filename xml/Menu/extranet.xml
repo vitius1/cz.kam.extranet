@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<menu>
+  <item>
+    <path>civicrm/extranet/profil</path>
+    <page_callback>CRM_Extranet_Page_Profil</page_callback>
+    <title>Profil</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/extranet/registrace</path>
+    <page_callback>CRM_Extranet_Page_Registrace</page_callback>
+    <title>Registrace</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/extranet/pripominky</path>
+    <page_callback>CRM_Extranet_Page_Pripominky</page_callback>
+    <title>Pripominky</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+  <item>
+    <path>civicrm/extranet/mailing</path>
+    <page_callback>CRM_Extranet_Page_Mailing</page_callback>
+    <title>Mailing</title>
+    <access_arguments>access CiviCRM</access_arguments>
+  </item>
+</menu>
